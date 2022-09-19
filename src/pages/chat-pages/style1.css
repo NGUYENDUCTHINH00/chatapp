@@ -1,0 +1,44 @@
+
+.wwww{
+    margin-left: -5px;
+    width: 73px;
+    height: 46px;
+    color: #FFDF00;
+    background-color: #545454;
+    cursor: pointer;
+}
+.wwww:hover{
+    background-color: #404040;
+}
+
+.www{
+    width: 514px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: #545454;
+    outline: none;
+}
+.www::placeholder{
+    color:#FFDF00 !important
+}
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #545454;
+    color: #FFDF00;
+    height: 50px;
+    font-size: 600;
+    flex-direction: column;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #545454;
+    width: 600px;
+    height: 50px;
+    color: #FFDF00;
+}
